@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact</title>
+	<!-- Bootstrap dependencies -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+	<!-- External CSS -->
+	<link rel="stylesheet" type="text/css" href="./index.css">
+	<!-- Google Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@600;700&family=Montserrat&family=Roboto+Serif:wght@100&display=swap">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@600;700&family=Montserrat&family=Roboto+Serif:wght@100&family=Roboto+Slab:wght@500&display=swap">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+		<a href="home.html" class="navbar-brand">Benjamin Suarez</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#simple-nav">
+				<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="simple-nav" id="nav">
+			<ul class="navbar-nav ml-auto">
+				<li>
+					<a href="./home.html" class="nav-item nav-link" >Home</a>
+				</li>
+				<li>
+					<a href="./skills.html" class="nav-item nav-link">Skills</a>
+				</li>
+				<li>
+					<a href="./gallery.html" class="nav-item nav-link">Gallery</a>
+				</li>
+				<li>
+					<a href="./contact.html" class="nav-item nav-link active">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+ <!--Contacts Section  -->
+	<div class="container-fluid my-2" id="contact">
+		<div class="row">
+			<div class="col-md-6">
+				<h3 class="text-center">Find Us!</h3>
+			    <!--Google map-->
+				    <div id="map-container-google-11" class="z-depth-1-half map-container-6 justify-content-center" class="text-center" style="height: 80%;"  >
+				        <iframe src="https://maps.google.com/maps?width=400&amp;height=400&amp;hl=en&amp;q=Araneta Coliseum&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+				          frameborder="0" style="border:0" allowfullscreen height="100%" class="col-12">
+				      	</iframe>
+				    </div>
+			</div>
+
+			<div class="col-md-6 my-3">
+					<h3 class="text-center">Contact Form</h3>
+				<form>
+				 	<div class="form-group">
+				 	   <label for="fullName">Full Name</label>
+				 	   <input type="text" class="form-control" id="fullName">
+				    </div>
+					<div class="form-group">
+					    <label for="email">Email address</label>
+					    <input type="email" class="form-control" id="email" >
+				    </div>
+				    <div class="form-group">
+					    <label for="message">Message</label>
+					    <textarea class="form-control" id="message" rows="5"></textarea>
+				    </div>
+				</form>
+			</div>	
+		</div>
+	</div>	 
+
+	<div class="container-fluid">
+		<footer class="p-1">
+		 	<p class="text-center text-white mb-0">&copy All Rights Reserved 2022</p>
+		 	<p class="text-center text-white mb-0">For Educational Purposes Only	
+		 	</p>
+		</footer>
+	</div>
+<!-- JS Dependencies -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>

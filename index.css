@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+	border-sizing: border-box;
+}
+
+.navbar{
+	font-family: 'Montserrat', sans-serif;
+}
+.navbar-custom{
+	background-color:#4C5760;
+}
+
+body{
+	font-family: 'Roboto Slab', serif;
+	background-image: url(https://images.pexels.com/photos/121666/pexels-photo-121666.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-repeat: no-repeat ;
+}
+footer{
+	font-family: 'Montserrat', sans-serif;
+	background-color:#4C5760
+}
+
+#greet{
+	font-weight: bold;
+	font-family: 'League Spartan', sans-serif;
+}
+
+
+
+
+
+
+.container{
+	padding-right: 0px;
+    padding-left: 0px;
+}
+.container-fluid{
+	padding-right: 0px;
+    padding-left: 0px;
+}
+.row{
+	border: 0px;
+	margin-right: 0;
+	margin-left: 0;
+	max-width: 95%;
+
+}
+
+h3{
+	padding-top: 0.75rem;
+}
+
+
+
+/*Skills.html*/
+#skills{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+#skills .row{
+	margin-left: auto;
+	margin-right: auto;
+}
+.row .card{
+	border: 0.25rem outset pink;
+}
+
+
+/*ok*/
+@media (max-width: 768px){
+	.card-img img{
+		max-height: 400px;
+		}
+
+	.row .card{
+		max-width: 80%;
+	}
+}
+
+
+
+
+
+
+hr{
+
+	width: 80%;
+	margin: auto;
+
+
+}
+
+#contact .row{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#intro{
+		background-color: #EAF6F6;
+}
+
